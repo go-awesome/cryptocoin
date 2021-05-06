@@ -24,17 +24,20 @@ LOG_PATH="/home/centos/go/src/cryptocoin"
 
 # Build the package by following command
 
+```
 user@centos$ go build -ldflags "-s -w" main.go
 user@centos$
+```
 
 # Once done, you can run the file as:
-
+```
 user@centos: ./main
-
+```
 # after the file has completed the process, it will store all the exchange pair and data on 2 file names:
-
+```
 1. binance-pair-price-with-time.txt
 2. coinbase-pair-price-with-time.txt
+```
 
 Thanks
 
