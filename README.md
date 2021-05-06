@@ -25,13 +25,13 @@ LOG_PATH="/home/centos/go/src/cryptocoin"
 # Build the package by following command
 
 ```
-user@centos$ go build -ldflags "-s -w" main.go
-user@centos$
+user@centos:coinbase$ go build -ldflags "-s -w" main.go
+user@centos:coinbase$
 ```
 
 # Once done, you can run the file as:
 ```
-user@centos: ./main
+user@centos:coinbase$ ./main
 ```
 # after the file has completed the process, it will store all the exchange pair and data on 2 file names:
 ```
