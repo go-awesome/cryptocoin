@@ -4,19 +4,23 @@ Please Set 5 environment variables as mentioned for following
 
 2 environment variable For Binance:
 
+```
 BINANCE_KEY="xxxx"
-
 BINANCE_SECRET="xxxx"
+```
 
 2 environment variable For Coinbase:
 
+```
 COINBASE_KEY="xxxx"
-
 COINBASE_SECRET="xxxx"
+```
 
 1 environment variable for Log path without ending trailing slash like below
 
+```
 LOG_PATH="/home/centos/go/src/cryptocoin"
+```
 
 # Build the package by following command
 
