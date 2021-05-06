@@ -35,8 +35,8 @@ user@centos:coinbase$ ./main
 ```
 # after the file has completed the process, it will store all the exchange pair and data on 2 file names:
 ```
-1. binance-pair-price-with-time.txt
-2. coinbase-pair-price-with-time.txt
+1. binance-pair-price.txt
+2. coinbase-pair-price.txt
 ```
 
 Thanks

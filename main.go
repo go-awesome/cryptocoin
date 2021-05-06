@@ -39,7 +39,7 @@ func main() {
 			bbuffer.WriteString("Symbol: " + p.Symbol + " Price: " + p.Price + "\r\n")
 		}
 		// write all binance data to a file
-		writeLog(bbuffer.String(), "binance-pair-price-with-time.txt")
+		writeLog(bbuffer.String(), "binance-pair-price.txt")
 		bbuffer.Reset() // buffer reset as no longer required
 	}
 
@@ -61,7 +61,7 @@ func main() {
 			}
 		}
 		// writing all coinbase exchange price to a file
-		writeLog(cbuffer.String(), "coinbase-pair-price-with-time.txt")
+		writeLog(cbuffer.String(), "coinbase-pair-price.txt")
 		cbuffer.Reset() // buffer reset as no longer required
 	}
 
